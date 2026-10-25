@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "overall_accuracy": 82.85,
+    "macro_f1_score": 0.6532,
+    "weighted_f1_score": 0.7973,
+    "macro_precision": 0.7739,
+    "macro_recall": 0.6491,
+    "macro_roc_auc": 0.8922,
+    "peak_val_accuracy": 83.36,
+    "peak_val_epoch": 56,
+    "min_val_loss": 0.4388,
+    "min_loss_epoch": 140
+  },
+  "per_class_metrics": {
+    "GREEN": {
+      "precision": 0.8376,
+      "recall": 0.945,
+      "f1_score": 0.8881,
+      "roc_auc": 0.8980099502487562,
+      "support": 382
+    },
+    "YELLOW": {
+      "precision": 0.6667,
+      "recall": 0.1408,
+      "f1_score": 0.2326,
+      "roc_auc": 0.8001760563380281,
+      "support": 71
+    },
+    "RED": {
+      "precision": 0.8175,
+      "recall": 0.8615,
+      "f1_score": 0.839,
+      "roc_auc": 0.9782985226693836,
+      "support": 130
+    }
+  },
+  "subject_generalization": {
+    "S10": 54.5,
+    "S2": 80.7,
+    "S5": 69.1,
+    "S15": 68.4,
+    "S4": 82.8,
+    "S8": 84.1,
+    "S14": 78.1,
+    "S16": 83.1,
+    "S3": 71.7,
+    "S13": 76.5,
+    "S6": 77.2,
+    "S9": 74.2,
+    "S11": 74.0,
+    "S17": 83.4,
+    "S7": 85.1
+  },
+  "plots_generated": {
+    "learning_curves": "C:\\Users\\user\\Desktop\\Research\\fullesterker\\recovery_backend\\reports\\evaluation_curves.png",
+    "confusion_matrix": "C:\\Users\\user\\Desktop\\Research\\fullesterker\\recovery_backend\\reports\\confusion_matrix.png",
+    "roc_curves": "C:\\Users\\user\\Desktop\\Research\\fullesterker\\recovery_backend\\reports\\roc_curves.png",
+    "subject_generalization": "C:\\Users\\user\\Desktop\\Research\\fullesterker\\recovery_backend\\reports\\subject_generalization.png"
+  }
+}
